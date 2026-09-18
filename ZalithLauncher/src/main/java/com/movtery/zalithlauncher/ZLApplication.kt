@@ -39,6 +39,8 @@ import com.movtery.zalithlauncher.game.account.AccountsManager
 import com.movtery.zalithlauncher.game.path.GamePathManager
 import com.movtery.zalithlauncher.keepalive.TaskKeepAlive
 import com.movtery.zalithlauncher.path.PathManager
+import com.movtery.zalithlauncher.setting.AllSettings
+import com.movtery.zalithlauncher.setting.enums.applyLanguage
 import com.movtery.zalithlauncher.setting.loadAllSettings
 import com.movtery.zalithlauncher.ui.activities.showFatalError
 import com.movtery.zalithlauncher.ui.activities.showLauncherCrash
@@ -89,6 +91,7 @@ class ZLApplication : Application(), SingletonImageLoader.Factory {
 
             MMKV.initialize(this)
             loadAllSettings(this)
+            applyLanguage(AllSettings.launcherLanguage.getValue())
 
             Logger.initialize(this)
 

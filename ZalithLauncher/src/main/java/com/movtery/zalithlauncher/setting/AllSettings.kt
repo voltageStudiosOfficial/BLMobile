@@ -383,7 +383,7 @@ object AllSettings : SettingsRegistry() {
     /**
      * 启动器语言
      */
-    val launcherLanguage = enumSetting("launcherLanguage", AppLanguage.FOLLOW_SYSTEM)
+    val launcherLanguage = enumSetting("launcherLanguage", AppLanguage.ENGLISH)
 
     /**
      * 启动器部分屏幕全屏
