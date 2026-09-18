@@ -1,16 +1,17 @@
 # BedroomLauncher
-![Downloads](https://img.shields.io/github/downloads/voltageStudiosOfficial/BedroomLauncher/total)
+![Downloads](https://img.shields.io/github/downloads/voltageStudiosOfficial/BLMobile/total)
 
 > [!IMPORTANT]
-> This project is **completely separate** from [ZalithLauncher2](https://github.com/ZalithLauncher2), [LeviLaunchroid](https://github.com/LiteLDev/LeviLaunchroid), and [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher).
+> Bedroom Launcher is an unofficial modified version of [Zalith Launcher 2](https://github.com/ZalithLauncher/ZalithLauncher2). It is maintained separately from Zalith Launcher 2, LeviLaunchroid, and PojavLauncher.
 
-**Bedroom Launcher** = Minecraft Java on your phone, but prettier. 
+**Bedroom Launcher** = Minecraft Java on your phone, but prettier.
 
 We took PojavLauncher’s engine, slapped on a clean Material 3 UI, and made it actually fun to use. Java works right now. Bedrock support is coming later via LeviLaunchroid so you can play both worlds from one app.
 
 **Play nice:** Use Bedroom Launcher with Mojang’s EULA in mind. You need to own Minecraft to play. We also include a **Dev Mode** toggle that bypasses some restrictions for testing/modding — use it responsibly and only with accounts you own.
 
-Official website coming soon.  
+Official website coming soon.
+
 Heads up: If you find a “Bedroom Launcher” site that isn’t linked here, it’s fake. We don’t run ads or sketchy mirrors. Stay safe!
 
 ## ✨ What works now
@@ -36,14 +37,14 @@ Java first, Bedrock next. ely.by login is on the list too.
 * Android Studio **Bumblebee** or newer
 * Android SDK:
     * **Minimum:** Android 8.0 Oreo (API 26)
-    * **Target:** Android 16 Baklava (API 36)
+    * **Target:** Android 14 (API 34)
 * JDK 17
 
 ### Build Steps
 
 ```bash
-git clone https://github.com/voltageStudiosOfficial/BedroomLauncher
-cd BedroomLauncher
+git clone https://github.com/voltageStudiosOfficial/BLMobile
+cd BLMobile
 ./gradlew assembleRelease
 ```
 
@@ -63,7 +64,8 @@ Unofficial launcher. Not made by or endorsed by Mojang, Microsoft, Levi, LeviLau
 
 ---
 
-**License:** GPL-3.0  
+**License:** GPL-3.0
+
 **Maintainer:** voltage!studios
 
 ## Open Source Libraries and Licenses
